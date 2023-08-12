@@ -1,0 +1,24 @@
+
+.c-container{
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
+    justify-content: space-around;
+    gap: 1rem;
+}
+.c-container>img{
+    width:6rem;
+    height:6rem ;
+}
+@media (max-width:768px){
+    .c-container{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .c-container>img{
+        width:6rem;
+        height:6rem ;
+
+    }
+}

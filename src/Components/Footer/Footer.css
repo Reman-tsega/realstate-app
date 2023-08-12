@@ -1,0 +1,29 @@
+.f-container{
+    justify-content: space-between;
+}
+img{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.f-list{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    font-weight: 500;
+}
+
+
+@media (max-width:768px) {
+    .f-container{
+        justify-content: center;
+    }
+    .f-container>div{
+        align-items: center;
+        text-align: center;
+    }
+    .infoText{
+        /* font-size: larger; */
+        font-weight:bolder;
+    }
+}
